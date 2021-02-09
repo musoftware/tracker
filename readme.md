@@ -497,7 +497,7 @@ For Laravel 4+ please use version 2.0.10.
 
 #### Require the `tracker` package by **executing** the following command in your command line:
 
-    composer require pragmarx/tracker
+    composer require musoftware/tracker
 
 #### Add the service provider to your app/config/app.php:
 
