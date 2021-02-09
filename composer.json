@@ -1,5 +1,5 @@
 {
-    "name": "pragmarx/tracker",
+    "name": "musoftware/tracker",
 
     "description": "A Laravel Visitor Tracker",
 
@@ -11,6 +11,11 @@
         {
             "name": "Antonio Carlos Ribeiro",
             "email": "acr@antoniocarlosribeiro.com",
+            "role": "Creator & Designer"
+        },
+        {
+            "name": "Mahmoud Mu",
+            "email": "mahmoudmn810@gmail.com",
             "role": "Creator & Designer"
         }
     ],
