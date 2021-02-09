@@ -555,7 +555,9 @@ class Tracker
     {
         $updater = new GeoIpUpdater();
 
-        $success = $updater->updateGeoIpFiles($this->config->get('geoip_database_path'));
+        $geoUrl = $this->config->get('geoip_database_url');
+
+        $success = $updater->updateGeoIpFiles($this->config->get('geoip_database_path'), $geoUrl);
 
         $this->messageRepository->addMessage($updater->getMessages());
 

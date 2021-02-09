@@ -125,7 +125,7 @@ return [
      */
 
     'geoip_database_path' => __DIR__.'/geoip', //storage_path('geoip'),
-
+    'geoip_database_url' => null,
     /*
      * Also log SQL query bindings?
      *
