@@ -126,6 +126,8 @@ return [
 
     'geoip_database_path' => __DIR__.'/geoip', //storage_path('geoip'),
     'geoip_database_url' => null,
+    'geoip_database_url_sha256' => null,
+    
     /*
      * Also log SQL query bindings?
      *
